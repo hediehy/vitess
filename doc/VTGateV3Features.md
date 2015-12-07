@@ -2,7 +2,7 @@
 
 ## Overview
 
-VTGate is a proxy that routes queries to the right vttablets. It's basically a fat client, but provided as a service. Over time, we moved away from a fat client, which had to be incorporated into the application. This way, the routing logic is more decoupled from the application and easier to maintain separately.
+VTGate is a proxy that routes queries to the right vttablets. It's basically a fat client, but provided as a service. Over time, we moved away from a fat client, which had to be incorporated into the application. This way, the routing logic is more decoupled from the application and easier to maintain separately.  
 
 The previous versions of the VTGate API existed as transition points while the logic was gradually moved away from the client into this new server:
 
